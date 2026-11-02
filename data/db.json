@@ -1,0 +1,380 @@
+{
+  "users": [
+    {
+      "id": "recruiter-nexus-1",
+      "role": "recruiter",
+      "email": "recruiter@nexuslabs.com",
+      "passwordHash": "$2b$10$EHTjhLxW8PhcmWCoIRzh5uxKI779.wK3vap5Q5pyC6ARYSm.CT.Y.",
+      "name": "Sarah Jenkins",
+      "companyName": "Nexus Technologies",
+      "createdAt": "2026-11-02T14:10:26.027Z"
+    },
+    {
+      "id": "recruiter-apex-2",
+      "role": "recruiter",
+      "email": "hiring@apexsystems.io",
+      "passwordHash": "$2b$10$EHTjhLxW8PhcmWCoIRzh5uxKI779.wK3vap5Q5pyC6ARYSm.CT.Y.",
+      "name": "David Vance",
+      "companyName": "Apex Systems",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "student-seed-1",
+      "role": "student",
+      "email": "maya.patel@stanford.edu",
+      "passwordHash": "$2b$10$EHTjhLxW8PhcmWCoIRzh5uxKI779.wK3vap5Q5pyC6ARYSm.CT.Y.",
+      "name": "Maya Patel",
+      "createdAt": "2026-11-02T14:10:26.028Z",
+      "studentProfile": {
+        "college": "Stanford University",
+        "department": "Computer Science",
+        "graduationYear": 2026,
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "SQL",
+          "FastAPI",
+          "PyTorch"
+        ],
+        "careerInterests": [
+          "AI Research",
+          "Machine Learning Engineering",
+          "Data Science"
+        ],
+        "resume": {
+          "filename": "Maya_Patel_Resume.pdf",
+          "fileType": "application/pdf",
+          "fileSize": 142000,
+          "uploadedAt": "2026-11-02T14:10:26.028Z",
+          "dataBase64": "JVBERi0xLjQKJcTl8uXrCjEgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSID4+CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvS2lkcyBbMyAwIFJdIC9Db3VudCAxID4+CmVuZG9iagozIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCA0CjAwMDAwMDAwMDAgNjU1MzUgZiAKdHJhaWxlcgo8PCAvU2l6ZSA0IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJlZgoxNzMKJSVFT0Y="
+        }
+      }
+    },
+    {
+      "id": "student-seed-2",
+      "role": "student",
+      "email": "marcus.lee@berkeley.edu",
+      "passwordHash": "$2b$10$EHTjhLxW8PhcmWCoIRzh5uxKI779.wK3vap5Q5pyC6ARYSm.CT.Y.",
+      "name": "Marcus Lee",
+      "createdAt": "2026-11-02T14:10:26.028Z",
+      "studentProfile": {
+        "college": "UC Berkeley",
+        "department": "Electrical Engineering & CS",
+        "graduationYear": 2025,
+        "skills": [
+          "React",
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "HTML",
+          "CSS",
+          "Tailwind CSS"
+        ],
+        "careerInterests": [
+          "Frontend Development",
+          "Full Stack Engineering",
+          "Web Performance"
+        ],
+        "resume": {
+          "filename": "Marcus_Lee_CV.pdf",
+          "fileType": "application/pdf",
+          "fileSize": 128500,
+          "uploadedAt": "2026-11-02T14:10:26.028Z",
+          "dataBase64": "JVBERi0xLjQKJcTl8uXrCjEgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSID4+CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvS2lkcyBbMyAwIFJdIC9Db3VudCAxID4+CmVuZG9iagozIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCA0CjAwMDAwMDAwMDAgNjU1MzUgZiAKdHJhaWxlcgo8PCAvU2l6ZSA0IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJlZgoxNzMKJSVFT0Y="
+        }
+      }
+    }
+  ],
+  "internships": [
+    {
+      "id": "intern-ml-1",
+      "recruiterId": "recruiter-nexus-1",
+      "recruiterEmail": "recruiter@nexuslabs.com",
+      "title": "Machine Learning & AI Engineering Intern",
+      "company": "Nexus Technologies",
+      "description": "Join our applied generative intelligence team. You will build and benchmark transformer models, fine-tune LLMs, integrate vector databases, and deploy real-time ML inference APIs for enterprise clients.",
+      "requiredSkills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "SQL",
+        "FastAPI"
+      ],
+      "preferredQualifications": "Prior coursework or project experience in deep learning or NLP. Familiarity with Hugging Face and Docker.",
+      "location": "San Francisco, CA",
+      "isRemote": true,
+      "duration": "3 Months (Summer 2026)",
+      "stipend": "$2,500/month",
+      "stipendAmount": 2500,
+      "openings": 3,
+      "deadline": "2026-12-17",
+      "contactEmail": "talent@nexuslabs.com",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "intern-frontend-2",
+      "recruiterId": "recruiter-nexus-1",
+      "recruiterEmail": "recruiter@nexuslabs.com",
+      "title": "Frontend React Developer Intern",
+      "company": "Nexus Technologies",
+      "description": "Design and develop responsive, accessible client interfaces for high-throughput enterprise SaaS applications. Work directly with design systems, Tailwind CSS, TypeScript, and state management.",
+      "requiredSkills": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS"
+      ],
+      "preferredQualifications": "Experience with modern React 19/Vite or Next.js, and component library design principles.",
+      "location": "Remote",
+      "isRemote": true,
+      "duration": "4 Months",
+      "stipend": "$2,000/month",
+      "stipendAmount": 2000,
+      "openings": 2,
+      "deadline": "2026-12-02",
+      "contactEmail": "careers@nexuslabs.com",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "intern-backend-3",
+      "recruiterId": "recruiter-apex-2",
+      "recruiterEmail": "hiring@apexsystems.io",
+      "title": "Backend Systems & Cloud Engineering Intern",
+      "company": "Apex Systems",
+      "description": "Architect scalable microservices, manage PostgreSQL/SQL databases, and build fault-tolerant asynchronous queue processors handling over 10M daily events.",
+      "requiredSkills": [
+        "Java",
+        "SQL",
+        "Spring Boot",
+        "Docker",
+        "REST APIs"
+      ],
+      "preferredQualifications": "Familiarity with distributed systems concepts, ACID transactions, and container orchestration.",
+      "location": "Austin, TX",
+      "isRemote": false,
+      "duration": "6 Months",
+      "stipend": "$2,400/month",
+      "stipendAmount": 2400,
+      "openings": 2,
+      "deadline": "2026-12-22",
+      "contactEmail": "engineering-interns@apexsystems.io",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "intern-data-4",
+      "recruiterId": "recruiter-nexus-1",
+      "recruiterEmail": "recruiter@nexuslabs.com",
+      "title": "Data Science & Analytics Intern",
+      "company": "Nexus Technologies",
+      "description": "Extract business insights from petabyte-scale data pipelines. Build dashboards, run statistical hypothesis testing, and translate analytical findings into strategic product recommendations.",
+      "requiredSkills": [
+        "Python",
+        "SQL",
+        "Data Structures",
+        "Pandas",
+        "Data Analysis"
+      ],
+      "preferredQualifications": "Strong foundation in probability, statistics, and visualization tools such as Tableau or Seaborn.",
+      "location": "New York, NY",
+      "isRemote": true,
+      "duration": "3 Months",
+      "stipend": "$2,100/month",
+      "stipendAmount": 2100,
+      "openings": 1,
+      "deadline": "2026-11-27",
+      "contactEmail": "analytics-talent@nexuslabs.com",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "intern-software-5",
+      "recruiterId": "recruiter-apex-2",
+      "recruiterEmail": "hiring@apexsystems.io",
+      "title": "Full Stack Software Engineer Intern",
+      "company": "Apex Systems",
+      "description": "Collaborate end-to-end across product development—from designing relational schema and backend controllers to implementing elegant React user interfaces.",
+      "requiredSkills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git"
+      ],
+      "preferredQualifications": "Understanding of Git workflow, test-driven development, and RESTful API conventions.",
+      "location": "Seattle, WA",
+      "isRemote": false,
+      "duration": "3 Months",
+      "stipend": "$2,300/month",
+      "stipendAmount": 2300,
+      "openings": 4,
+      "deadline": "2027-01-01",
+      "contactEmail": "jobs@apexsystems.io",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    },
+    {
+      "id": "intern-python-6",
+      "recruiterId": "recruiter-nexus-1",
+      "recruiterEmail": "recruiter@nexuslabs.com",
+      "title": "Python Backend & Automation Intern",
+      "company": "Nexus Technologies",
+      "description": "Develop automated continuous testing infrastructure, web scrapers, and data ingestion services using asynchronous Python.",
+      "requiredSkills": [
+        "Python",
+        "SQL",
+        "Data Structures",
+        "Git",
+        "Linux"
+      ],
+      "preferredQualifications": "Experience with Asyncio, pytest, and command-line Linux tooling.",
+      "location": "Remote",
+      "isRemote": true,
+      "duration": "3 Months",
+      "stipend": "$1,900/month",
+      "stipendAmount": 1900,
+      "openings": 2,
+      "deadline": "2026-12-07",
+      "contactEmail": "talent@nexuslabs.com",
+      "createdAt": "2026-11-02T14:10:26.028Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-seed-1",
+      "internshipId": "intern-ml-1",
+      "internshipTitle": "Machine Learning & AI Engineering Intern",
+      "company": "Nexus Technologies",
+      "studentId": "student-seed-1",
+      "studentName": "Maya Patel",
+      "studentEmail": "maya.patel@stanford.edu",
+      "studentCollege": "Stanford University",
+      "studentSkills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "FastAPI",
+        "PyTorch"
+      ],
+      "resume": {
+        "filename": "Maya_Patel_Resume.pdf",
+        "fileType": "application/pdf",
+        "fileSize": 142000,
+        "uploadedAt": "2026-11-02T14:10:26.028Z",
+        "dataBase64": "JVBERi0xLjQKJcTl8uXrCjEgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSID4+CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvS2lkcyBbMyAwIFJdIC9Db3VudCAxID4+CmVuZG9iagozIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCA0CjAwMDAwMDAwMDAgNjU1MzUgZiAKdHJhaWxlcgo8PCAvU2l6ZSA0IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJlZgoxNzMKJSVFT0Y="
+      },
+      "appliedAt": "2026-10-29T14:10:26.028Z",
+      "status": "Shortlisted",
+      "statusHistory": [
+        {
+          "status": "Applied",
+          "timestamp": "2026-10-29T14:10:26.028Z"
+        },
+        {
+          "status": "Under Review",
+          "timestamp": "2026-10-30T14:10:26.028Z",
+          "note": "Resume passed initial engineering screening."
+        },
+        {
+          "status": "Shortlisted",
+          "timestamp": "2026-11-01T14:10:26.028Z",
+          "note": "Selected for technical interview rounds."
+        }
+      ],
+      "recruiterFeedback": "Outstanding PyTorch and ML project portfolio. Moving forward to technical discussion."
+    },
+    {
+      "id": "app-seed-2",
+      "internshipId": "intern-frontend-2",
+      "internshipTitle": "Frontend React Developer Intern",
+      "company": "Nexus Technologies",
+      "studentId": "student-seed-2",
+      "studentName": "Marcus Lee",
+      "studentEmail": "marcus.lee@berkeley.edu",
+      "studentCollege": "UC Berkeley",
+      "studentSkills": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Tailwind CSS"
+      ],
+      "resume": {
+        "filename": "Marcus_Lee_CV.pdf",
+        "fileType": "application/pdf",
+        "fileSize": 128500,
+        "uploadedAt": "2026-11-02T14:10:26.028Z",
+        "dataBase64": "JVBERi0xLjQKJcTl8uXrCjEgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSID4+CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvS2lkcyBbMyAwIFJdIC9Db3VudCAxID4+CmVuZG9iagozIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCA0CjAwMDAwMDAwMDAgNjU1MzUgZiAKdHJhaWxlcgo8PCAvU2l6ZSA0IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJlZgoxNzMKJSVFT0Y="
+      },
+      "appliedAt": "2026-10-31T14:10:26.028Z",
+      "status": "Interview Scheduled",
+      "statusHistory": [
+        {
+          "status": "Applied",
+          "timestamp": "2026-10-31T14:10:26.028Z"
+        },
+        {
+          "status": "Shortlisted",
+          "timestamp": "2026-11-01T14:10:26.028Z"
+        },
+        {
+          "status": "Interview Scheduled",
+          "timestamp": "2026-11-02T14:10:26.028Z",
+          "note": "Technical code pairing session confirmed."
+        }
+      ],
+      "recruiterFeedback": "Excellent React and TypeScript GitHub samples.",
+      "interviewDetails": {
+        "date": "2026-11-10",
+        "time": "14:00 PST",
+        "platform": "Google Meet",
+        "meetingLinkOrLocation": "https://meet.google.com/skb-tech-demo",
+        "notes": "Prepare a 15-minute walkthrough of a recent React component or project."
+      }
+    }
+  ],
+  "emailLogs": [],
+  "interviewSessions": [
+    {
+      "id": "session-75f1ac94-d0aa-454a-a93e-7b34cc8f789c",
+      "studentId": "student-seed-1",
+      "role": "Machine Learning Engineer Intern",
+      "topic": "Python",
+      "difficulty": "Intermediate",
+      "mode": "mock",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Explain the difference between deep copy and shallow copy in Python, and provide a concrete use case for each.",
+          "expectedConcepts": [
+            "Clarity",
+            "Technical precision",
+            "Practical example"
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "How do Python generators work, and what advantages does the `yield` statement provide in terms of memory efficiency?",
+          "expectedConcepts": [
+            "Clarity",
+            "Technical precision",
+            "Practical example"
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Explain how Python manages memory with reference counting and garbage collection, and how to handle circular references.",
+          "expectedConcepts": [
+            "Clarity",
+            "Technical precision",
+            "Practical example"
+          ]
+        }
+      ],
+      "currentQuestionIndex": 0,
+      "createdAt": "2026-11-02T14:10:45.485Z",
+      "updatedAt": "2026-11-02T14:10:45.485Z"
+    }
+  ]
+}
